@@ -39,7 +39,7 @@ main{
 }
 main img{
   max-width: 100%;
-
+  height: auto;
 }
 main section{
   padding: 30px;
@@ -85,7 +85,7 @@ footer{
 footer p{
   color: white;
   text-align: center;
-  
+  height: auto;
 }
 @media screen and (max-width: 800px) {
   main{
