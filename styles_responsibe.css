@@ -15,6 +15,7 @@ header h1{
 header nav{
     display: flex;
     justify-content: flex-end;
+   gap: 20px;
     align-items: right;
 }
 header nav a{
@@ -25,6 +26,12 @@ header nav a{
 .cta{
     background-color: #e4e2e2;
     text-align: center;
+    width: 100%;
+    height: 180px;
+}
+.cta h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 .cta button{
     background-color: #160101;
@@ -34,4 +41,28 @@ header nav a{
     border-radius: 5px;
     font-size: 1.2rem;
     cursor: pointer;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #d1c580;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.form input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-width: 300px;
+   margin: 0 auto;
+
 }
