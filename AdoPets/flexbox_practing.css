@@ -35,16 +35,18 @@ main{
     border-radius: 5px;
     }
     .btn{ 
+    display: flex;
+    text-decoration: none;
     padding: 10px 10px;
     background-color: #4caf50; ;
     border: none; 
     cursor: pointer;  
-    align-self: center;
     width: auto;
     box-sizing: border-box;
     border-radius: 5px;
     width: 15.6%;
     margin-top: 5px;
+    justify-content: center;
 
     }
     .btn:hover{
@@ -65,16 +67,19 @@ main{
     border-radius: 5px;
     }
     .btn-2{ 
+    display: flex;
+    text-decoration: none;
     padding: 10px 10px;
     background-color: #4caf50; ;
     border: none; 
     cursor: pointer;  
-    align-self: center;
     width: auto;
     box-sizing: border-box;
     border-radius: 5px;
-    width: 15.5%;
-    margin-top: 5px;    }
+    width: 15.6%;
+    margin-top: 5px;
+    justify-content: center;
+    }
     .btn-2:hover{
         background-color: #4ca049;
     }
@@ -93,16 +98,18 @@ main{
     border-radius: 5px;
     }
     .btn-3{ 
+    display: flex;
+    text-decoration: none;
     padding: 10px 10px;
     background-color: #4caf50; ;
     border: none; 
     cursor: pointer;  
-    align-self: center;
     width: auto;
     box-sizing: border-box;
     border-radius: 5px;
-    width: 15.5%;
+    width: 15.6%;
     margin-top: 5px;
+    justify-content: center;
     }
     .btn-3:hover{
         background-color: #4ca049;
@@ -122,16 +129,18 @@ main{
     border-radius: 5px;
     }
     .btn-4{ 
+    display: flex;
+    text-decoration: none;
     padding: 10px 10px;
     background-color: #4caf50; ;
     border: none; 
     cursor: pointer;  
-    align-self: center;
     width: auto;
     box-sizing: border-box;
     border-radius: 5px;
-    width: 15.5%;
+    width: 15.6%;
     margin-top: 5px;
+    justify-content: center;
     }
     .btn-4:hover{
         background-color: #4ca049;
@@ -152,16 +161,18 @@ main{
     object-fit:contain;
     }
     .btn-5{ 
+    display: flex;
+    text-decoration: none;
     padding: 10px 10px;
     background-color: #4caf50; ;
     border: none; 
     cursor: pointer;  
-    align-self: center;
     width: auto;
     box-sizing: border-box;
     border-radius: 5px;
-    width: 15.5%;
+    width: 15.6%;
     margin-top: 5px;
+    justify-content: center;
     }
     .btn-5:hover{
         background-color: #4ca049;
@@ -178,13 +189,7 @@ main{
         height: 45px;
         padding: 10px;
     }
-    .cabeza a{
-        text-decoration: none;
-        font-size: 20px; 
-        color: azure;
-    }
-   
-
+    
     .cabeza a {
     --glow_color: #12aeea;
     border-radius: 5px;
@@ -219,8 +224,6 @@ main{
 .cabeza a:active {
     font-size: 16px;
 }
-
-
 .cabeza ul{
     list-style: none;
     display: flex;
@@ -235,3 +238,56 @@ main{
     width: 100%;
     justify-content: center;
 }
+.art{
+   display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    background-color:rgb(175, 213, 238);
+    width: 100%;
+    height: 250px;
+    margin-top: 5px;  
+}
+ .seg-img{
+    display: flex;
+    justify-self: center;
+    margin-top: 10px;
+    width: 220px;
+    height: 220px;
+    padding: 5px;
+    background-color: rgb(154, 194, 221);
+    color: azure;
+    background-image: url(gatito.png);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    border-radius: 5px;
+    object-fit:contain;
+ }
+.navega{
+    background-color: rgb(154, 194, 221);
+}
+.navega ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: center;
+}
+.navega li{
+    list-style: none;
+    gap: 5px;
+    
+}
+.descripcion{
+    display:flex;
+    flex-flow: column wrap;
+    background-color: rgb(154, 194, 221);
+    margin-top: 30px;
+    justify-content: center;
+    width: 200px;
+}
+.descripcion p{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
