@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background-color: brown;
+}
+.contenido{
+    background-color: gray;
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(1 68 68)
+}
+.first{
+    /* flex-shrink: 0; esto hace que el div no se encoja*/
+    flex-shrink: 5;/*Esto hace que el div se encoja en proporcion 5 y el resto en 1*/
+    height: 200px;
+    width: 200px;
+}
+.second{
+    height: 200px;
+    width: 200px;
+}
+.third{
+    height: 200px;
+    width: 200px;
+}
