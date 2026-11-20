@@ -4,6 +4,9 @@
 }
 .contenedor{
     display: flex;
+    flex-direction:column;/*cuando cambiamos la direccion en row justify-content ordena de manera horizontal y align-items de manera vertical y se invierten los papeles en direccion column*/
+    align-items: flex-start;
+    justify-content:space-evenly;
     width: 100%;
     height: 70vh;
     overflow: hidden;
@@ -15,7 +18,8 @@
     font-size: 40px;
     color: white;
     padding: 10px;
-    border: 2px solid rgb(1 68 68)
+    border: 2px solid rgb(1 68 68);
+    
 }
 .first{
     /* flex-shrink: 0; esto hace que el div no se encoja*/
