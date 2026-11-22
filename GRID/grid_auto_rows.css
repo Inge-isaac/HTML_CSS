@@ -6,7 +6,7 @@
 .padre{
     display: grid;
     grid-template-rows: repeat(2, 50px);
-    grid-auto-rows: 100px 120px 150px 200px;
+    grid-auto-rows: 100px 140px 200px;
     background-color: darkorange;
     height: 20vh;
 }
