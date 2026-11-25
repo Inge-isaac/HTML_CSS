@@ -1,4 +1,32 @@
-.about{
+img{
+    width: 50%;
+    object-fit:cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+   
+}
+.contenedora{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 30px;
+    background-color: lightslategray;
+    justify-items: center;
+    }
+    .formulario{
+        background-color: lightgrey;
+        grid-row: 1 / span 1;
+        grid-column: 3;
+        max-width: 100%;
+        
+    }
+    .about{
+        grid-column: 1 / span 1;
+        grid-row: 1;
+    }
+    .skill{
+        grid-column: 2;
+        grid-row: 1;
     }
 
