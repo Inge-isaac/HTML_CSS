@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+.padre{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 100px);
+}
+.a{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: red;
+    border: solid black 2px;
+    text-align: center;
+}
+.b{
+    background-color: gray;
+     border: solid black 2px;
+     grid-row-start: 2;
+     grid-row-end: 4;
+}
+.c{
+    background-color: hotpink;
+     border: solid black 2px;
+     grid-column-start: 2;
+     grid-column-end: 4;
+     display: flex;
+     justify-content: center;
+}
+.e{
+    background-color: wheat;
+     border: solid black 2px;
+}
+.f{
+    background-color: lawngreen;
+     border: solid black 2px;
+     grid-column-start: 3;
+     grid-column-end: 5;
+     display: flex;
+}
+.navegacion ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+}
+.acercade p{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.img-nombre{
+    display: flex;
+    justify-content: center;
+    background-color: dimgray;
+   
+}
+.img-nombre h2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-right: 5px;
+}
+.img-nombre img{
+    display: flex;
+    justify-self: end;
+    width: 24%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.p{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.lorito{
+    display: flex;
+   
+}
+.img-loro{
+    display: flex;
+    width: 100%;
+    grid-template-rows: repeat(2, 30px);
+}
+.img-loro img{
+    width: 50px;
+    object-fit:cover;
+    grid-template-rows: repeat(2, 1fr);
+}
+.img-loro h2{
+    margin: 0;
+    align-self: center;
+}
+.img-loro p{
+    margin-left: 5px;
+    align-self: center;
+}
+.seis-imagenes{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 200px;
+    column-gap: 60px;
+}
+.seis{
+    width: 20px;
+    height: 50%;
+    object-fit: cover;
+    align-self: center;
+}
+.d{
+    background-color: forestgreen;
+    border: solid black 2px;
+    display: flex;
+
+    width: 350px;
+    height: 100px;
+}
+.hr1{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.hr1 img{
+    width: 37%;
+    object-fit: fill; 
+    border-radius: 5px;
+    opacity: 0.75;
+    
+}
+.icono{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+}
+.icono img{
+    max-width: 20%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+.icono img:hover{
+    transform: scale(5);
+}
